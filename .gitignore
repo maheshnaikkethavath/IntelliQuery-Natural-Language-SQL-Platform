@@ -1,0 +1,39 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+backend/.env
+backend/data/*.db
+backend/data/*.log
+# Environment and secrets
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Node.js
+node_modules/
+dist/
+build/
+.next/
+
+# Database and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

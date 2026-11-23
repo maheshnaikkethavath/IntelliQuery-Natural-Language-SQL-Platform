@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-paper text-ink font-sans antialiased; }
+:focus-visible { outline: 2px solid #0d7f74; outline-offset: 2px; }
+.btn { @apply inline-flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-medium transition-colors disabled:opacity-50 disabled:cursor-not-allowed; }
+.btn-primary { @apply bg-teal-600 text-white hover:bg-teal-700; }
+.btn-ghost { @apply border border-slate-300 bg-white text-slate-700 hover:bg-slate-100; }
+.btn-danger { @apply bg-red-700 text-white hover:bg-red-800; }
+.input { @apply w-full rounded-md border border-slate-300 bg-white px-3 py-2 text-sm; }
